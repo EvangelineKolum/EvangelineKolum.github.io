@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="formstyle.css">
+    <link rel="shortcut icon" href="img/PicsArt.png" type="image/png">
+  </head>
+  <body>
+
+  	<div class="page-header">
+  		<p class="promo">Do you need a stylish, and most importantly, functional website? Yes?<br><p class="promo2"> Fill out the form below and wait for a response.</p></p>
+  	</div>
+<div class="formsite">
+
+  	<div class="form">
+  		<form class="order-form" action="/k-mail" method="post">
+	  		<div class="order">
+	          <label for="fullname">Name:</label>
+	          <input required type="text" name="fullname" id="fullname" placeholder="Enter your name">
+	        </div>
+	        <div class="order">
+	          <label for="age">Age(optional):</label>
+	          <input type="text" name="age" id="age" placeholder="Enter your age">
+	        </div>
+	        <div class="order">
+	          <label for="phone-first">Number:</label>
+	          <input required type="text" name="phone-first" id="phone-first" placeholder="Enter your number">
+	        </div>
+	        <div class="order">
+	          <label for="email">Email:</label>
+	          <input required type="text" name="email" id="email" placeholder="Enter your Email">
+	        </div>
+	        <div class="order">
+	          <label for="website">For what purposes do you need a website?</label><br>
+	          <select name="website" id="website">
+	          	<option selected disabled>Select an option</option>
+	            <option value="1">Web-store</option>
+	            <option value="2">Form</option>
+	            <option value="3">Organization page</option>
+	            <option value="4">Other</option>
+	          </select>
+	        </div>
+	        <div class="order">
+	          <label for="sketch">Do you already have a sketch of the website?</label><br>
+	          <input checked type="radio" name="sketch" id="sketch">Yes<br>
+	          <input type="radio" name="sketch" id="sketch">No
+	        </div>
+	        <div class="order">
+	          <label for="recommend">Would you recommend me to a friend?</label>
+	          <p><input checked type="radio" name="recommend" id="recommend">Definitely</p>
+	          <p><input type="radio" name="recommend" id="recommend">Maybe</p>
+	          <p><input type="radio" name="recommend" id="recommend">Not sure</p>
+	        </div>
+	        <div class="order">
+	          <label for="comment">Any comments or suggestions?</label><br>
+	          <textarea name="comment" id="comment"></textarea>
+	        </div>
+	        <div class="order">
+	          <label>
+	            <input type="checkbox" name="subscription" checked>
+	            I agree to receive the mailing
+	          </label>
+	        </div>
+       		<input class="btn" type="submit" value="Submit">
+      	</form>
+     </div>
+ </div>
+</body>
+</html>
